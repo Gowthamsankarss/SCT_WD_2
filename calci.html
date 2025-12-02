@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>calci</title>
+    <link rel="stylesheet" href="style_calci.css">
+    <script src="script_calci.js"></script>
+  </head>
+  <body style="background-color: rgb(7, 81, 55);">
+      <button style="width: 100px;
+        height :55px;
+        font-size: 25px;
+        margin: 20px;" onclick="openpanel()">history</button>
+    <div id="sidePanel">
+      <h1 id="serve" style="color: darkblue;cursor: pointer;" onclick="closepanel()">[X]The way you have come along today...</h1>
+    </div>
+    <center>
+    <p id="file">SCIENTIFIC CALCULATOR</p>
+    </center> 
+    <center>
+    <div id="index">
+      <br>
+      <div id="panel"></div>
+      <button class="button" onclick="touch('AC')">AC</button>
+      <button class="button" onclick="touch('%')">%</button>
+      <button class="button" onclick="touch('C')">C</button>
+      <button class="button" onclick="touch('/')">/</button>
+      <br>
+      <button class="button" onclick="touch('7')">7</button>
+      <button class="button" onclick="touch('8')">8</button>
+      <button class="button" onclick="touch('9')">9</button>
+      <button class="button" onclick="touch('X')">X</button>
+      <br>
+      <button class="button" onclick="touch('4')">4</button>
+      <button class="button" onclick="touch('5')">5</button>
+      <button class="button" onclick="touch('6')">6</button>
+      <button class="button" onclick="touch('+')">+</button>
+      <br>
+      <button class="button" onclick="touch('1')">1</button>
+      <button class="button" onclick="touch('2')">2</button>
+      <button class="button" onclick="touch('3')">3</button>
+      <button class="button" onclick="touch('-')">-</button>
+      <br>
+      <button class="button" onclick="touch('00')">00</button>
+      <button class="button" onclick="touch('0')">0</button>
+      <button class="button" onclick="touch('.')">.</button>
+      <button class="button" onclick="touch('=')">=</button>
+
+  </div>
+    </center>
+  </body>
+</html>
